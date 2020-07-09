@@ -25,7 +25,7 @@ export default function DownloadApps() {
           padding: 20px 0 0 0;
         }
         .title {
-          font-weight: bold;
+          font-family: 'Proxima Nova Bold';
           font-size: 36px;
           color: #172B4D;
         }

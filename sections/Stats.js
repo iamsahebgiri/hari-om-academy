@@ -28,7 +28,7 @@ export default function Stats() {
             padding: 50px 20px;
           }
           .title, .stats-item h1 {
-            font-weight: bold;
+            font-family: 'Proxima Nova Bold';
             font-size: 36px;
             color: #172B4D;
           }
@@ -42,7 +42,7 @@ export default function Stats() {
             text-align: center;
           }
           .stats-item h1 {
-            font-family: 'Circular Std Bold';
+            font-family: 'Circular';
           }
           .stats-item p {
             color: #6B778C;

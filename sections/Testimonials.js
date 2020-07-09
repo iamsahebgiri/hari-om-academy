@@ -29,7 +29,7 @@ export default function Testimonials() {
 
       <style jsx> {`
       .title {
-        font-weight: bold;
+        Font-family: 'Proxima Nova Bold';
         font-size: 36px;
         color: #172B4D;
         text-align: center;

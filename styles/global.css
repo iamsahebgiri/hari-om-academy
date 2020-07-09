@@ -1,6 +1,24 @@
+@font-face {
+  font-family: 'Circular';
+  src: url('/circular-bold.otf');
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/ProximaNova-Regular.ttf');
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('/ProximaNova-Bold.ttf');
+}
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('/ProximaNova-Semibold.ttf');
+}
+
 body {
-  --brand-color: #4C9AFF;
+  --brand-color: #4c9aff;
   --width-desktop: 1200px;
-  font-family: 'Proxima Nova',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: #f7fafc;
 }

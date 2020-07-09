@@ -25,7 +25,7 @@ export default function WhyUsItem(props) {
           display: flex;
         }
         .title h1 {
-          font-weight: bold;
+          font-family: 'Proxima Nova Bold';
           font-size: 36px;
           color: #172B4D;
           margin-left: 10px;

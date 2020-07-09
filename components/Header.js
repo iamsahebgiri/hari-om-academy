@@ -62,7 +62,7 @@ export default function Header() {
         .left-nav li a, .right-nav li a {
           text-decoration: none;
           text-transform: uppercase;
-          font-weight: bold;
+          font-family: 'Proxima Nova Semibold';
           font-size: 14px;
           color: rgba(255,255,255,0.6);
           padding: 6px 10px;
@@ -76,7 +76,7 @@ export default function Header() {
         .logo {
           text-decoration: none;
           text-transform: uppercase;
-          font-weight: bold;
+          font-family: 'Proxima Novaa Bold';
           color: #fff;
           // background: #fff;
           // color: #8777D9;

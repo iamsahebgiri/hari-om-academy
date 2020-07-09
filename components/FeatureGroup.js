@@ -25,7 +25,7 @@ export default function Feature({icon, color, title, description}) {
         }
         h2 {
           font-size: 22px;
-          font-weight: bold;
+          font-family: 'Proxima Nova Bold';
           margin: 10px 0;
           color: #172B4D;
           text-align: center;

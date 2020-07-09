@@ -16,7 +16,7 @@ export default function Features() {
       <style jsx>{`
         .title {
           font-size: 36px;
-          font-weight: bold;
+          font-family: 'Proxima Nova Bold';
           color: #172B4D;
           margin: 0 auto;
           padding: 40px 0;

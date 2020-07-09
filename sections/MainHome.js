@@ -41,9 +41,8 @@ export default function MainHome() {
       <style jsx>{`
         h1 {
           font-size: 48px;
-          font-weight: bold;
           line-height: 62px;
-          font-family: 'Circular Std Bold';
+          font-family: 'Circular';
         }
         .tagline {
           font-size: 24px;
@@ -79,7 +78,7 @@ export default function MainHome() {
           color: #fff;
           opacity: 0.6;
           text-transform: uppercase;
-          font-weight: bold;
+          font-family: 'Proxima Nova Semibold';
         }
         .popular-courses-ul li a:hover {
           opacity: 1;
@@ -91,7 +90,6 @@ export default function MainHome() {
          border: none;
          border-radius:6px;
          box-sizing: border-box;
-         font-weight: bold;
          color:#FFF;
           font-size: 16px;
          text-align:center;
@@ -99,7 +97,7 @@ export default function MainHome() {
           outline: none;
           background: #3ECF8E;
           text-transform: uppercase;
-          font-family: 'Proxima Nova';
+          font-family: 'Proxima Nova Semibold';
           margin-top: 80px;
         }
         button:hover{
