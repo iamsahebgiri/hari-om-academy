@@ -7,6 +7,7 @@ import WhyUs from '../sections/WhyUs'
 import Testimonials from '../sections/Testimonials'
 import DownloadApps from '../sections/DownloadApps'
 import Stats from '../sections/Stats'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -28,8 +29,9 @@ export default function Home() {
       <Features />
       <WhyUs />
       <Testimonials />
-      <Stats />
       <DownloadApps />
+      <Stats />
+      <Footer />
       <style jsx>{`
         .home-container {
           background-color: var(--brand-color);

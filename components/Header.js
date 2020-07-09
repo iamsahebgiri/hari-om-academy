@@ -76,7 +76,7 @@ export default function Header() {
         .logo {
           text-decoration: none;
           text-transform: uppercase;
-          font-family: 'Proxima Novaa Bold';
+          font-family: 'Proxima Nova Bold';
           color: #fff;
           // background: #fff;
           // color: #8777D9;
