@@ -3,42 +3,48 @@ import Link from 'next/link'
 
 export default function MainHome() {
   return (
-    <div className='main-home-container'>
-      <div className='left-section'>
-        <h1>First digital institute <br /> of Jamshedpur</h1>
-        <p className='tagline'>Where your dream comes true.</p>
-        <img className='underline' src='/underline.svg' alt='underline' />
-        <button>Get Started</button>
-        <div className="popular-courses-container">
-          <p className='popular-courses'>Popular courses:</p>
-          <ul className='popular-courses-ul'>
-            <li>
-              <Link href='/courses'>
-                <a>UPSC CSE</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/courses'>
-                <a>Banks</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/courses'>
-                <a>IIT JEE</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/courses'>
-                <a>NEET</a>
-              </Link>
-            </li>
-          </ul>
+    <div className="container">
+      <div className='main-home-container'>
+        <div className='left-section'>
+          <h1>First digital institute <br /> of Jamshedpur</h1>
+          <p className='tagline'>Where your dream comes true.</p>
+          <img className='underline' src='/underline.svg' alt='underline' />
+          <button>Get Started</button>
+          <div className="popular-courses-container">
+            <p className='popular-courses'>Popular courses:</p>
+            <ul className='popular-courses-ul'>
+              <li>
+                <Link href='/courses'>
+                  <a>UPSC CSE</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/courses'>
+                  <a>Banks</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/courses'>
+                  <a>IIT JEE</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/courses'>
+                  <a>NEET</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className='right-section'>
+          <img width='450' src='/girl.png' alt='girl' />
         </div>
       </div>
-      <div className='right-section'>
-        <img width='450' src='/girl.png' alt='girl' />
-      </div>
       <style jsx>{`
+        .container {
+          width: 100%;
+          background-color: var(--brand-color);
+        }
         h1 {
           font-size: 48px;
           line-height: 62px;
@@ -58,11 +64,10 @@ export default function MainHome() {
         }
         .main-home-container {
           display: flex;
-          width: 100%;
+          max-width: 1200px;
+          margin: 0 auto;
           justify-content: space-between;
-          margin-top: 100px;
-          background-color: var(--brand-color);
-          padding-bottom: 100px;
+          padding: 75px 0;
         }
         .popular-courses-container {
           display: flex;

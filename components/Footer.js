@@ -65,7 +65,8 @@ export default function Footer() {
       <style jsx>
           {`
           .container {
-            background: #fff;
+            background: #42526e;
+            color: #ccc;
           }
           .footer {
             display: flex;

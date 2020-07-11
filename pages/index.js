@@ -20,12 +20,8 @@ export default function Home() {
         <script src='https://code.iconify.design/1/1.0.7/iconify.min.js'></script>
       </Head>
 
-      <div className='home-container'>
-        <div className='container'>
-          <Header />
-          <MainHome />
-        </div>
-      </div>
+      <Header />
+      <MainHome />
 
       <Features />
       <MessageFromFounder />
@@ -33,15 +29,6 @@ export default function Home() {
       <DownloadApps />
       <Stats />
       <Footer />
-      <style jsx>{`
-        .home-container {
-          background-color: var(--brand-color);
-        }
-        .container {
-          max-width: var(--width-desktop);
-          margin: 0 auto;
-        }
-      `}</style>
     </div>
   )
 }
