@@ -14,6 +14,7 @@ export default function AppStore() {
           align-items: center;
           justify-content: center;
           transition: all 0.2s;
+          margin-right: 20px;
         }
         div:hover {
           cursor: pointer;
@@ -21,6 +22,12 @@ export default function AppStore() {
         }
         img {
           transform: scale(1.3);
+        }
+        
+        @media only screen and (max-width: 992px) {
+          div {
+            transform: scale(0.7);
+          }
         }
       `}</style>
     </div>

@@ -5,10 +5,10 @@ export default function MessageFromFounder() {
     <div className='container'>
       <div className='section-container'>
         <div className='left'>
-          <h1 className='title'>Message From Founder</h1>
-          <p>The school situated in a serene ambience away from the madding crowd promises an overall development academic, physical & aesthetic of the students. Needless to say that the Principal plays a meaningful role in the academic life of the student, who molds and shapes the character and conduct of the students with parental love and care & brings out the best in them by providing a congenial academic atmosphere.</p>
+          <h1 className='title'>Message from founder</h1>
+          <p>The coaching situated in a serene ambience away from the madding crowd promises an overall development academic, physical & aesthetic of the students. Needless to say that the Principal plays a meaningful role in the academic life of the student, who molds and shapes the character and conduct of the students with parental love and care & brings out the best in them by providing a congenial academic atmosphere.</p>
 
-          <p>Hari om Academy gives more emphasis on this topic in all its P.T.M to make the parents conscious. My appeal to the parents- let us extend our hands whole heartedly to bring up the children in Hari om Academy to make them best citizen of India as its a collective responsibility of all of us.</p>
+          <p>Hari om Academy gives more emphasis on this topic. My appeal to the parents- let us extend our hands whole heartedly to bring up the children in Hari om Academy to make them best citizen of India as its a collective responsibility of all of us.</p>
 
           <p className='founder'>Chandar Kumar</p>
         </div>
@@ -54,6 +54,32 @@ export default function MessageFromFounder() {
         background: rgb(255,255,255);
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(26,242,127,1) 100%);
         border-radius: 6px;
+      }
+      @media only screen and (max-width: 992px) {
+        .title  {
+          font-size: 28px;
+          text-align: center;
+        }
+        .section-container {
+          flex-direction: column;
+        }
+        .image {
+          width: 100%;
+          border-radius: 0;
+        }
+        .container {
+          box-shadow: none;
+          border-radius: 0;
+          padding: 0;
+        }
+        .right {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(26,242,127,1) 100%);
+        border-radius: 0px;
+        }
+        .left {
+          padding: 20px;
+        }
       }
       `}</style>
     </div>

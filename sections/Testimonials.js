@@ -1,15 +1,22 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReviewItem from '../components/ReviewItem';
+import { useState, useEffect } from 'react';
+
+
 
 export default function Testimonials() {
+  const [width, setWidth] = useState(0);
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
 
   return (
     <div className='testimpnials-container'>
       <h1 className='title'>Our Parents and Students Loves us!</h1>
       <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
+        spaceBetween={30}
+        slidesPerView={width>922? 3: 1}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
@@ -40,7 +47,12 @@ export default function Testimonials() {
         margin: 0 auto;
         padding-bottom: 30px;
       }
-      
+      @media only screen and (max-width: 992px) {
+        .title {
+          font-size: 24px;
+          padding: 40px 20px;
+        }
+      }
       `}</style>
     </div>
   )

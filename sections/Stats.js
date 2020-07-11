@@ -3,6 +3,7 @@ import React from 'react'
 export default function Stats() {
   return (
     <div className='stats-container'>
+      <h1 className="title">Growth and statistics</h1>
       <div className='stats-content'>
         <div className='stats-item'>
           <h1>4</h1>
@@ -21,7 +22,7 @@ export default function Stats() {
           <p>Courses</p>
         </div>
       </div>
-      <style jsx >
+      <style jsx>
         {`
           .stats-container {
             padding: 50px 20px;
@@ -39,7 +40,7 @@ export default function Stats() {
           }
           .stats-content {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             text-align: center;
           }
           .stats-item h1 {
@@ -48,7 +49,17 @@ export default function Stats() {
           .stats-item p {
             color: #6B778C;
           }
-
+          @media only screen and (max-width: 992px) {
+            .title, .stats-item h1 {
+              font-size: 28px;
+            }
+            .stats-container {
+              padding: 20px;
+            }
+            .title {
+              margin: 30px 0;
+            }
+         }
         `}
       </style>
     </div>

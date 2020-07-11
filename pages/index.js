@@ -28,7 +28,7 @@ export default function Home() {
       <Testimonials />
       <DownloadApps />
       <Stats />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

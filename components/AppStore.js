@@ -22,6 +22,11 @@ export default function AppStore() {
         img {
           transform: scale(0.6);
         }
+        @media only screen and (max-width: 992px) {
+          div {
+            transform: scale(0.7);
+          }
+        }
       `}</style>
     </div>
   )

@@ -30,6 +30,11 @@ export default function Feature({icon, color, title, description}) {
           color: #172B4D;
           text-align: center;
         }
+        @media only screen and (max-width: 992px) { {
+          div {
+            padding: 10px 10px 30px 10px;
+          }
+        }
       `}</style>
     </div>
   )

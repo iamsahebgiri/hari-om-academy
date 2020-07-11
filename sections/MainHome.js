@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 export default function MainHome() {
   return (
-    <div className="container">
+    <div className='container'>
       <div className='main-home-container'>
         <div className='left-section'>
           <h1>First digital institute <br /> of Jamshedpur</h1>
           <p className='tagline'>Where your dream comes true.</p>
           <img className='underline' src='/underline.svg' alt='underline' />
           <button>Get Started</button>
-          <div className="popular-courses-container">
+          <div className='popular-courses-container'>
             <p className='popular-courses'>Popular courses:</p>
             <ul className='popular-courses-ul'>
               <li>
@@ -108,6 +108,39 @@ export default function MainHome() {
         button:hover{
           cursor: pointer;
           transform: scale(1.05);
+        }
+        @media only screen and (max-width: 992px) { 
+          .main-home-container {
+            flex-direction: column;
+            padding: 50px 20px;
+          }
+          .right-section {
+            display: flex;
+            justify-content: center;
+          }
+          .right-section img {
+            width: 90%;
+            margin-top: 20px;
+          }
+          h1 {
+            font-size: 34px;
+            line-height: 40px;
+            text-align: center;
+          }
+          .tagline {
+            font-size: 14px;
+            text-align: center;
+          }
+          button {
+            display: none;
+            margin: 20px auto;
+          }
+          .underline {
+            display: none;
+          }
+          .popular-courses-container {
+            display: none;
+          }
         }
       `}</style>
     </div>
