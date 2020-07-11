@@ -8,6 +8,7 @@ import Testimonials from '../sections/Testimonials'
 import DownloadApps from '../sections/DownloadApps'
 import Stats from '../sections/Stats'
 import Footer from '../components/Footer'
+import MessageFromFounder from '../sections/MessageFromFounder'
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       </div>
 
       <Features />
-      <WhyUs />
+      <MessageFromFounder />
       <Testimonials />
       <DownloadApps />
       <Stats />

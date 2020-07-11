@@ -3,7 +3,6 @@ import React from 'react'
 export default function Stats() {
   return (
     <div className='stats-container'>
-      {/* <h1 className='title'>Our Growth and Statistic</h1> */}
       <div className='stats-content'>
         <div className='stats-item'>
           <h1>4</h1>
@@ -26,6 +25,8 @@ export default function Stats() {
         {`
           .stats-container {
             padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
           }
           .title, .stats-item h1 {
             font-family: 'Proxima Nova Bold';

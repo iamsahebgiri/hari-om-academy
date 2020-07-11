@@ -6,23 +6,29 @@ export default function DownloadApps() {
   return (
     <div className='download-apps'>
       <div className='content-container'>
-        <h1 className='title'>Download our app now</h1>
-        <p className='description'>Study Material, latest notifications,<br /> reminder and many more.</p>
-        <div className="store-icons">
-          <PlayStore />
-          <AppStore />
+        <div className='section'>
+          <h1 className='title'>Download our app now</h1>
+          <p className='description'>Study Material, latest notifications,<br /> reminder and many more.</p>
+          <div className="store-icons">
+            <PlayStore />
+            <AppStore />
+          </div>
         </div>
-      </div>
-      <img src="/phones.png" alt="download apps" />
+        <img src="/phones.png" alt="download apps" />
 
+      </div>
       <style jsx >
         {`
         .download-apps {
           background: #fff;
+          padding: 20px 0 0 0;
+        }
+        .content-container {
+          max-width: 1200px;
+          margin: 0 auto;
           display: flex;
           justify-content: space-around;
           align-items: center;
-          padding: 20px 0 0 0;
         }
         .title {
           font-family: 'Proxima Nova Bold';

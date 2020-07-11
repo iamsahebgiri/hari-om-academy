@@ -33,7 +33,7 @@ export default function Testimonials() {
         font-size: 36px;
         color: #172B4D;
         text-align: center;
-        padding: 30px;
+        padding: 40px 0;
       }
       .testimpnials-container {
         max-width: 1200px;
