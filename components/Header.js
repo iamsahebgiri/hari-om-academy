@@ -28,14 +28,14 @@ export default function Header() {
         <div id='mob-nav-modal' className='mob-nav' ref={modal}>
           <div className='modal-content'>
             <div className='modal-topbar' onClick={toggleModal.bind(this)}>
-              <span className='iconify' data-icon='ion-close' width='24px'></span>
+              <span className='iconify' data-icon='ion-close' width='18px'></span>
               <h1>Close</h1>
             </div>
             <ul>
               <li >
                 <Link href='/' >
                   <a className={router.pathname == '/' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-home' width='24px'></span>
+                    <span className='iconify' data-icon='ion-home' width='18px'></span>
                  Home
                 </a>
                 </Link>
@@ -43,7 +43,7 @@ export default function Header() {
               <li>
                 <Link href='/study' >
                   <a className={router.pathname == '/study' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-documents' width='24px'></span>
+                    <span className='iconify' data-icon='ion-documents' width='18px'></span>
                   Study Material
                 </a>
                 </Link>
@@ -51,7 +51,7 @@ export default function Header() {
               <li>
                 <Link href='/courses'>
                   <a className={router.pathname == '/courses' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-layers' width='24px'></span>
+                    <span className='iconify' data-icon='ion-layers' width='18px'></span>
                   Courses
                 </a>
                 </Link>
@@ -59,14 +59,14 @@ export default function Header() {
               <li>
                 <Link href='/gallery'>
                   <a className={router.pathname == '/gallery' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-images' width='24px'></span>
+                    <span className='iconify' data-icon='ion-images' width='18px'></span>
                   Gallery</a>
                 </Link>
               </li>
               <li>
                 <Link href='/blog'>
                   <a className={router.pathname == '/blog' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-newspaper' width='24px'></span>
+                    <span className='iconify' data-icon='ion-newspaper' width='18px'></span>
                   Blog
                 </a>
                 </Link>
@@ -74,14 +74,14 @@ export default function Header() {
               <li>
                 <Link href='/about'>
                   <a>
-                    <span className='iconify' data-icon='ion-school' width='24px'></span>
+                    <span className='iconify' data-icon='ion-school' width='18px'></span>
                 About</a>
                 </Link>
               </li>
               <li>
                 <Link href='/contact'>
                   <a className={router.pathname == '/contact' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-call' width='24px'></span>
+                    <span className='iconify' data-icon='ion-call' width='18px'></span>
                 Contact</a>
                 </Link>
               </li>
@@ -224,6 +224,19 @@ export default function Header() {
             background-color: #FFF;
             height: 100%;
             width: 70%;
+            animation-name: slide;
+            animation-duration: 0.4s;
+          }
+
+          @keyframes slide {
+            from {
+              left: -70%;
+              opacity: 0;
+            }
+            to {
+              left: 0;
+              opacity: 1;
+            }
           }
           .modal-content ul li {
             padding: 0 8px;

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Stats() {
   return (
     <div className='stats-container'>
-      <h1 className="title">Growth and statistics</h1>
+      <h1 className="title">Our collective efforts over years</h1>
       <div className='stats-content'>
         <div className='stats-item'>
           <h1>4</h1>
@@ -20,6 +20,10 @@ export default function Stats() {
         <div className='stats-item'>
           <h1>30+</h1>
           <p>Courses</p>
+        </div>
+        <div className='stats-item'>
+          <h1>7256+</h1>
+          <p>Trrusted Parents</p>
         </div>
       </div>
       <style jsx>
@@ -39,8 +43,10 @@ export default function Stats() {
             text-align:center;
           }
           .stats-content {
-            display: flex;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 1.3rem;
+            margin: 0 auto;
             text-align: center;
           }
           .stats-item h1 {

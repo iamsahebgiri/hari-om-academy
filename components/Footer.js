@@ -7,10 +7,10 @@ export default function Footer() {
       <div className='footer'>
         <div>
           <img src="/logo.png" alt="Hari om academy" />
-          <p>Hari Om Academy, family have passion <br /> to serve student community by way of <br /> providing good source of study and <br />quality guidance.</p>
+          <p>Hari Om Academy, as a family have <br />passion  to serve student community <br />by way of  providing good source of <br /> study and quality guidance.</p>
           <p>Made with 🌹 by Meetwit</p>
         </div>
-        <div>
+        <div className='links'>
           <h1>Links</h1>
           <ul>
             <li>
@@ -35,7 +35,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className='links'>
           <h1>Follow Us</h1>
           <ul>
             <li>
@@ -64,6 +64,9 @@ export default function Footer() {
       </div>
       <style jsx>
           {`
+          img {
+            width: 60px;
+          }
           .container {
             background: #42526e;
             color: #ccc;
@@ -72,7 +75,7 @@ export default function Footer() {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            padding: 30px 0;
+            padding: 30px 0 100px;
             max-width: 1200px;
             margin: 0 auto;
           }
@@ -81,18 +84,31 @@ export default function Footer() {
           }
           h1 {
             font-family: 'Proxima Nova Bold';
-            color: #172B4D;
+            color: #FFF;
           }
           ul li {
             margin-top: 10px;
           }
           ul li a {
             text-decoration: none;
-            color: #172B4D;
+            color: #FFF;
+            opacity: 0.7;
           }
           ul li a:hover {
             text-decoration: underline;
             color: #4C9AFF;
+          }
+          @media only screen and (max-width: 992px) { 
+            .footer {
+              display: grid;
+              grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+              grid-gap: 1.3rem;
+              text-align: center;
+            }
+            .links{
+              display: none;
+              justify-content: space-around;
+            }
           }
         `}
         </style>

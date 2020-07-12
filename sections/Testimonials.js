@@ -13,7 +13,7 @@ export default function Testimonials() {
 
   return (
     <div className='testimpnials-container'>
-      <h1 className='title'>Our Parents and Students Loves us!</h1>
+      <h1 className='title'>Our loving parents and students.</h1>
       <Swiper
         spaceBetween={30}
         slidesPerView={width>922? 3: 1}
@@ -49,7 +49,7 @@ export default function Testimonials() {
       }
       @media only screen and (max-width: 992px) {
         .title {
-          font-size: 24px;
+          font-size: 28px;
           padding: 40px 20px;
         }
       }

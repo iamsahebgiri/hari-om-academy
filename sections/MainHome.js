@@ -119,7 +119,7 @@ export default function MainHome() {
             justify-content: center;
           }
           .right-section img {
-            width: 90%;
+            max-width: 360px;
             margin-top: 20px;
           }
           h1 {
