@@ -15,8 +15,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Hari Om Academy</title>
-        <link rel='icon' href='/favicon.ico' />
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css' />
         <script src='https://code.iconify.design/1/1.0.7/iconify.min.js'></script>
       </Head>
 

@@ -1,4 +1,6 @@
+import '../styles/cssreset.css'
 import '../styles/global.css'
+
 // Import Swiper styles
 import 'swiper/swiper-bundle.css';
 

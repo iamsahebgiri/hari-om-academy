@@ -23,7 +23,7 @@ export default function Stats() {
         </div>
         <div className='stats-item'>
           <h1>7256+</h1>
-          <p>Trrusted Parents</p>
+          <p>Trusted Parents</p>
         </div>
       </div>
       <style jsx>

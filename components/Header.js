@@ -41,17 +41,9 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href='/study' >
-                  <a className={router.pathname == '/study' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-documents' width='18px'></span>
-                  Study Material
-                </a>
-                </Link>
-              </li>
-              <li>
                 <Link href='/courses'>
                   <a className={router.pathname == '/courses' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-layers' width='18px'></span>
+                    <span className='iconify' data-icon='ion-documents' width='18px'></span>
                   Courses
                 </a>
                 </Link>
@@ -93,11 +85,6 @@ export default function Header() {
             <a className='logo'>Hari Om Academy</a>
           </Link>
           <ul className='left-nav'>
-            <li>
-              <Link href='/study'>
-                <a>Study Material</a>
-              </Link>
-            </li>
             <li>
               <Link href='/courses'>
                 <a>Courses</a>
