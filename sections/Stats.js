@@ -50,7 +50,7 @@ export default function Stats() {
             text-align: center;
           }
           .stats-item h1 {
-            font-family: 'Circular';
+            font-family: 'Proxima Nova Bold';
           }
           .stats-item p {
             color: #6B778C;

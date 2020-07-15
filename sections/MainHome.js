@@ -6,7 +6,7 @@ export default function MainHome() {
     <div className='container'>
       <div className='main-home-container'>
         <div className='left-section'>
-          <h1>First digital institute <br /> of Jamshedpur</h1>
+          <h1>First Digital Institute <br /> of Jamshedpur</h1>
           <p className='tagline'>Where your dream comes true.</p>
           <img className='underline' src='/underline.svg' alt='underline' />
           <button>Get Started</button>
@@ -48,7 +48,7 @@ export default function MainHome() {
         h1 {
           font-size: 48px;
           line-height: 62px;
-          font-family: 'Circular';
+          font-family: 'Proxima Nova Bold';
         }
         .tagline {
           font-size: 24px;

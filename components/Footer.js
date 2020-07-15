@@ -39,7 +39,7 @@ export default function Footer() {
           <h1>Follow Us</h1>
           <ul>
             <li>
-              <a href="http://instagram.com/hariomacadmey" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.instagram.com/hariomacademyedu/" target="_blank" rel="noopener noreferrer">Instagram</a>
             </li>
             <li>
               <a href="http://facebook.com/hariomacademy" target="_blank" rel="noopener noreferrer">Facebook</a>
@@ -48,7 +48,7 @@ export default function Footer() {
               <a href="http://youtube.com/hariomacadmey" target="_blank" rel="noopener noreferrer">Youtube</a>
             </li>
             <li>
-              <a href="http://youtube.com/hariomacadmey" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+              <a href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
             </li>
           </ul>
         </div>
@@ -68,8 +68,8 @@ export default function Footer() {
             width: 60px;
           }
           .container {
-            background: #42526e;
-            color: #ccc;
+            background: #fff;
+            color: #6B778C;
           }
           .footer {
             display: flex;
@@ -84,14 +84,14 @@ export default function Footer() {
           }
           h1 {
             font-family: 'Proxima Nova Bold';
-            color: #FFF;
+            color: #6B778C;
           }
           ul li {
             margin-top: 10px;
           }
           ul li a {
             text-decoration: none;
-            color: #FFF;
+            color: #6B778C;
             opacity: 0.7;
           }
           ul li a:hover {
