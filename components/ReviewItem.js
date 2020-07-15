@@ -48,6 +48,13 @@ export default function ReviewItem({ text, name, course, path }) {
         .text,p {
           color: #6B778C;
         }
+
+        @media only screen and (max-width: 992px) {
+          .review-item-container {
+            box-shadow: none;
+            border: 1px solid #eff2f7;
+          }
+        }
       `}</style>
     </div>
 

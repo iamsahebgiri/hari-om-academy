@@ -58,7 +58,7 @@ export default function Features() {
             margin-top : -60px;
           }
           .container {
-            padding: 0 20px;
+            padding: 0 10px;
           }
         }
       `}</style>

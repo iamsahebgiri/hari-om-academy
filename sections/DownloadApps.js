@@ -9,9 +9,7 @@ export default function DownloadApps() {
         <div className='section'>
           <h1 className='title'>Download our app now</h1>
           <p className='description'>Study Material, latest notifications,<br /> reminder and many more.</p>
-          <div className='store-icons'>
-            <PlayStore />
-          </div>
+          <PlayStore />
         </div>
         <img src='/phones.png' alt='download apps' />
 
@@ -34,9 +32,7 @@ export default function DownloadApps() {
           font-size: 36px;
           color: #172B4D;
         }
-        .store-icons {
-          display: flex;
-        }
+        
         .description {
           margin: 10px 0 20px 0;
           line-height: 20px;
@@ -46,6 +42,11 @@ export default function DownloadApps() {
           width: 300px;
         }
         @media only screen and (max-width: 992px) {
+          .section {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+          }
           img {
             display: none;
           }

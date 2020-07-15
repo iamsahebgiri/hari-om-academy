@@ -2,19 +2,21 @@ import React from 'react'
 
 export default function MessageFromFounder() {
   return (
-    <div className='container'>
-      <div className='section-container'>
-        <div className='left'>
-          <h1 className='title'>Message from founder</h1>
-          <p>Our Institute emphasize to give new embodiment in the field of education by perseverance, strong mindedness to spark the whole world. Our mission to refine the way of learning offers child centric-education that goes beyond the text books to open the window of the mind so that each child develops holistically.</p>
+    <div className="outer-container">
+      <div className='container'>
+        <div className='section-container'>
+          <div className='left'>
+            <h1 className='title'>Message from founder</h1>
+            <p>Our Institute emphasize to give new embodiment in the field of education by perseverance, strong mindedness to spark the whole world. Our mission to refine the way of learning offers child centric-education that goes beyond the text books to open the window of the mind so that each child develops holistically.</p>
 
-          <p>We provide a wide ranging facilities by professionals to dynamic, creative learners to continue their cognitive and physical development.</p>
-          <p>Also we furnish a better guidance for self-improvement of student for building up their future.</p>
+            <p>We provide a wide ranging facilities by professionals to dynamic, creative learners to continue their cognitive and physical development.</p>
+            <p>Also we furnish a better guidance for self-improvement of student for building up their future.</p>
 
-          <p className='founder'>Chandar Kumar</p>
-        </div>
-        <div className='right'>
-          <img className='image' src='/founder.png' alt='Founder' />
+            <p className='founder'>Chandan Kumar</p>
+          </div>
+          <div className='right'>
+            <img className='image' src='/founder.png' alt='Founder' />
+          </div>
         </div>
       </div>
       <style jsx>{`
@@ -27,7 +29,6 @@ export default function MessageFromFounder() {
       }
       .container {
         box-shadow: 0 2px 4px rgba(0,0,0,0.16);
-        //border: 1px solid #eff2f7;
         border-radius: 6px;
         padding-left: 30px;
         background: #fff;
@@ -41,7 +42,7 @@ export default function MessageFromFounder() {
         margin-top: 10px;
       }
       .image {
-        border-radius: 6px;
+        border-radius: 6px 0;
       }
       .left {
         margin-top: 20px;
@@ -66,17 +67,20 @@ export default function MessageFromFounder() {
         }
         .image {
           width: 100%;
-          border-radius: 0;
+          border-radius: 6px;
         }
         .container {
           box-shadow: none;
-          border-radius: 0;
+          border-radius: 6px;
           padding: 0;
+          border: 1px solid #eff2f7;
+        }
+        .outer-container {
+          padding: 10px;
         }
         .right {
-        background: rgb(255,255,255);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(26,242,127,1) 100%);
-        border-radius: 0px;
+          background: rgb(255,255,255);
+          background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(26,242,127,1) 100%);
         }
         .left {
           padding: 20px;
