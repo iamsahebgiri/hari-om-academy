@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <img src="/logo.png" alt="Hari om academy" />
           <p>Hari Om Academy, as a family have <br />passion  to serve student community <br />by way of  providing good source of <br /> study and quality guidance.</p>
-          <p>Made with 🌹 by Meetwit</p>
+          <p>Developed by Meetwit</p>
         </div>
         <div className='links'>
           <h1>Links</h1>

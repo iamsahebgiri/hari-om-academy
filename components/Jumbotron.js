@@ -40,7 +40,7 @@ export default function Jumbotron({ title, description }) {
           @media only screen and (max-width: 992px)
           {
             .jumbotron {
-              height: 200px;
+              height: 140px;
             }
             .title {
               font-size: 28px;

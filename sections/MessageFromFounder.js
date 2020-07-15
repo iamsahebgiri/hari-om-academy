@@ -6,9 +6,10 @@ export default function MessageFromFounder() {
       <div className='section-container'>
         <div className='left'>
           <h1 className='title'>Message from founder</h1>
-          <p>The coaching situated in a serene ambience away from the madding crowd promises an overall development academic, physical & aesthetic of the students. Needless to say that the Principal plays a meaningful role in the academic life of the student, who molds and shapes the character and conduct of the students with parental love and care & brings out the best in them by providing a congenial academic atmosphere.</p>
+          <p>Our Institute emphasize to give new embodiment in the field of education by perseverance, strong mindedness to spark the whole world. Our mission to refine the way of learning offers child centric-education that goes beyond the text books to open the window of the mind so that each child develops holistically.</p>
 
-          <p>Hari om Academy gives more emphasis on this topic. My appeal to the parents- let us extend our hands whole heartedly to bring up the children in Hari om Academy to make them best citizen of India as its a collective responsibility of all of us.</p>
+          <p>We provide a wide ranging facilities by professionals to dynamic, creative learners to continue their cognitive and physical development.</p>
+          <p>Also we furnish a better guidance for self-improvement of student for building up their future.</p>
 
           <p className='founder'>Chandar Kumar</p>
         </div>

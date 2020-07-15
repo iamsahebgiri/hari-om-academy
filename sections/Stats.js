@@ -29,7 +29,7 @@ export default function Stats() {
       <style jsx>
         {`
           .stats-container {
-            padding: 50px 20px;
+            padding: 80px 20px;
             max-width: 1200px;
             margin: 0 auto;
           }

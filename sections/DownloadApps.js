@@ -11,7 +11,6 @@ export default function DownloadApps() {
           <p className='description'>Study Material, latest notifications,<br /> reminder and many more.</p>
           <div className='store-icons'>
             <PlayStore />
-            <AppStore />
           </div>
         </div>
         <img src='/phones.png' alt='download apps' />

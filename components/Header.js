@@ -56,11 +56,10 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href='/blog'>
-                  <a className={router.pathname == '/blog' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-newspaper' width='18px'></span>
-                  Blog
-                </a>
+                <Link href='/fees'>
+                  <a className={router.pathname == '/fees' ? 'active' : ''}>
+                    <span className='iconify' data-icon='ion-card' width='18px'></span>
+                  Fees</a>
                 </Link>
               </li>
               <li>
@@ -96,8 +95,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href='/blog'>
-                <a>Blog</a>
+              <Link href='/fees'>
+                <a>Fee Structure</a>
               </Link>
             </li>
           </ul>

@@ -10,6 +10,7 @@ export default function courses() {
       <Header />
       <Jumbotron title='Courses at your finger tips' description='Hari Om Academy cover all courses you can <br />think of with perfection.' />
       <CourseSection />
+      <Footer />
     </>
   )
 }
