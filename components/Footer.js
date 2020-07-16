@@ -19,7 +19,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href='/contact'>
+              <Link href='/gallery'>
                 <a>Gallery</a>
               </Link>
             </li>

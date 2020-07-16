@@ -47,6 +47,7 @@ export default function ReviewItem({ text, name, course, path }) {
         }
         .text,p {
           color: #6B778C;
+          line-height: 21px;
         }
 
         @media only screen and (max-width: 992px) {

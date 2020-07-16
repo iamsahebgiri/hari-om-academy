@@ -36,7 +36,7 @@ export default function Header() {
                 <Link href='/' >
                   <a className={router.pathname == '/' ? 'active' : ''}>
                     <span className='iconify' data-icon='ion-home' width='18px'></span>
-                 Home
+                    Home
                 </a>
                 </Link>
               </li>
@@ -63,8 +63,15 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link href='/faculties'>
+                  <a className={router.pathname == '/faculties' ? 'active' : ''}>
+                    <span className='iconify' data-icon='ion-card' width='18px'></span>
+                  Faculties</a>
+                </Link>
+              </li>
+              <li>
                 <Link href='/about'>
-                  <a>
+                  <a className={router.pathname == '/about' ? 'active' : ''}>
                     <span className='iconify' data-icon='ion-school' width='18px'></span>
                 About</a>
                 </Link>
@@ -97,6 +104,11 @@ export default function Header() {
             <li>
               <Link href='/fees'>
                 <a>Fee Structure</a>
+              </Link>
+            </li>
+            <li>
+              <Link href='/faculties'>
+                <a>Faculties</a>
               </Link>
             </li>
           </ul>
@@ -180,13 +192,13 @@ export default function Header() {
             justify-content: space-between;
             background: #FFF;
             width: 100%;
-            padding: 10px;
+            padding: 15px 10px;
           }
           .mob-title {
             font-family: 'Proxima Nova Bold';
             color: #172B4D;
             text-transform: uppercase;
-            font-size: 18px;
+            font-size: 21px;
           }
           .block {
             display: block;

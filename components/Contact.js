@@ -72,6 +72,13 @@ export default function Contact() {
           font-size: 21px;
           margin-bottom: 10px;
         }
+        @media only screen and (max-width: 992px) { 
+          .box {
+            border: 1px solid #EFF2F7;
+            box-shadow: none;
+            border-radius: 6px;
+          }
+        }
         `}
       </style>
     </div>
