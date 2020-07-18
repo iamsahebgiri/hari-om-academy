@@ -24,16 +24,16 @@ export default function Testimonials() {
       >
         <SwiperSlide>
           <ReviewItem text='I have been reading here in Hari Om Acadey for last few months. The vibe and culture here is incredible. Teachers are really supportive and clears our doubt anytime. <br />
-          If you want some institute who cares for you, Hari Om Academy is the way to go.' name='Richa Kumari' course='Class 12' path='3.jpg' />
+          If you want some institute who cares for you, Hari Om Academy is the way to go.' name='Madhu Kumari' course='Competition Batch' path='1.jpg' />
         </SwiperSlide>
         <SwiperSlide>
-          <ReviewItem text='Digital Class of Hari Om Academy helps me understanding the concept so crystall clear that it stays forever. I can easily write in exam papers with ease. <br /> Hari Om Academy is one of the finest coaching institute in Jamshedpur.' name='Pinky Rathore' course='Class 10' path='2.jpg'/>
+          <ReviewItem text='Digital Class of Hari Om Academy helps me understanding the concept so crystall clear that it stays forever. I can easily write in exam papers with ease. <br /> Hari Om Academy is one of the finest coaching institute in Jamshedpur.' name='Jyoti Kumari' course='Competition Batch' path='5.jpg'/>
         </SwiperSlide>
         <SwiperSlide>
-          <ReviewItem text='I was looking for a coaching which focus on all round development of student, who will take intense care of student in studies and above all they must help in excelling studies. <br />And I have never regreted choosing Hari Om academy after that.' name='Jennifer Lawrence' course='Class 9' path='3.jpg'/>
+          <ReviewItem text='I was looking for a coaching which focus on all round development of student, who will take intense care of student in studies and above all they must help in excelling studies. <br />And I have never regreted choosing Hari Om academy after that.' name='Akash Kumar' course='Competition Batch' path='4.jpg'/>
         </SwiperSlide>
         <SwiperSlide>
-          <ReviewItem text='There are many institute in India, but not everyone of them provide quality education. HOA has really showed imporoved in my child.' name='Vijay Sharma' course='Parent' path='2.jpg'/>
+          <ReviewItem text='There are many institute in India, but not everyone of them provide quality education. I can learn, study easily and effectively.' name='Nidhi Kumari' course='Competition Batch' path='2.jpg'/>
         </SwiperSlide>
       </Swiper>
 

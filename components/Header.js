@@ -35,7 +35,7 @@ export default function Header() {
               <li >
                 <Link href='/' >
                   <a className={router.pathname == '/' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-home' width='18px'></span>
+                    <span className='iconify' data-icon='ion-planet' width='18px'></span>
                     Home
                 </a>
                 </Link>
@@ -43,7 +43,7 @@ export default function Header() {
               <li>
                 <Link href='/courses'>
                   <a className={router.pathname == '/courses' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-documents' width='18px'></span>
+                    <span className='iconify' data-icon='ion-construct' width='18px'></span>
                   Courses
                 </a>
                 </Link>
@@ -65,7 +65,7 @@ export default function Header() {
               <li>
                 <Link href='/faculties'>
                   <a className={router.pathname == '/faculties' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-card' width='18px'></span>
+                    <span className='iconify' data-icon='ion-people' width='18px'></span>
                   Faculties</a>
                 </Link>
               </li>

@@ -124,7 +124,6 @@ export default function fees() {
             border: 1px solid #EFF2F7;
             box-shadow: none;
             border-radius: 6px;
-            
           }
         }
         `}
