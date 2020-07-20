@@ -15,9 +15,8 @@ export default function gallery() {
         <img src='/gallery/2.jpg' loading='lazy' alt='Hari om Academy' />
 
         <img src='/gallery/3.jpg' loading='lazy' alt='Hari om Academy' />
-        <img src='/gallery/4.jpg' loading='lazy' alt='Hari om Academy' />
 
-        <img src='/gallery/5.jpg' loading='lazy' alt='Hari om Academy' />
+        <img src='/gallery/4.jpg' loading='lazy' alt='Hari om Academy' />
 
         <img src='/gallery/6.jpg' loading='lazy' alt='Hari om Academy' />
 
@@ -30,6 +29,8 @@ export default function gallery() {
         <img src='/gallery/10.jpg' loading='lazy' alt='Hari om Academy' />
 
         <img src='/gallery/11.jpg' loading='lazy' alt='Hari om Academy' />
+        <img src='/gallery/12.jpg' loading='lazy' alt='Hari om Academy' />
+        <img src='/gallery/13.jpg' loading='lazy' alt='Hari om Academy' />
       </div>
 
       <Footer />

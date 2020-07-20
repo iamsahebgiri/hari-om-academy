@@ -82,6 +82,31 @@ export default function fees() {
               <td>All</td>
               <td>Rs. 500</td>
             </tr>
+            <tr>
+              <td>JEE</td>
+              <td>PCM</td>
+              <td>Rs. 40000 (One Time/Yr)</td>
+            </tr>
+            <tr>
+              <td>NEET</td>
+              <td>PCB</td>
+              <td>Rs. 40000 (One Time/Yr)</td>
+            </tr>
+            <tr>
+              <td>S.S.C.</td>
+              <td>All</td>
+              <td>Rs. 10000 (Full Course)</td>
+            </tr>
+            <tr>
+              <td>Railway</td>
+              <td>All</td>
+              <td>Rs. 8000 (Full Course)</td>
+            </tr>
+            <tr>
+              <td>N.D.A.</td>
+              <td>All</td>
+              <td>Rs. 8000 (Full Course)</td>
+            </tr>
           </tbody>
         </table>
       </div>

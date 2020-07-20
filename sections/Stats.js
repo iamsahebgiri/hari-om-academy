@@ -6,7 +6,7 @@ export default function Stats() {
       <h1 className="title">Our collective efforts over years</h1>
       <div className='stats-content'>
         <div className='stats-item'>
-          <h1>4</h1>
+          <h1>5</h1>
           <p>Branches</p>
         </div>
         <div className='stats-item'>
