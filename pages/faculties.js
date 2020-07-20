@@ -25,7 +25,8 @@ export default function faculties() {
         <User name="Roshan Kumar" designation="BCA" pic="rk.jpg" />
         <User name="Shalu Kumari" designation="BCA" pic="shalu.jpg"/>
         <User name="Sunil Kumar" designation="Assistant Teacher" pic="sunil_kumar.jpg"/>
-        <User name="Nidhi Kumar" designation="Assistant Teacher" pic="nidhi_kumari.jpg"/>
+        <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari.jpg"/>
+        <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari_diff.jpg"/>
       </div>
       <Footer />
       <style jsx>
