@@ -18,6 +18,11 @@ export default function fees() {
             </tr>
             
             <tr>
+              <td>Class 9 and 10 (JAC)</td>
+              <td>All</td>
+              <td>Rs. 500</td>
+            </tr>
+            <tr>
               <td>Class 9 and 10 (CBSE)</td>
               <td>All</td>
               <td>Rs. 750</td>

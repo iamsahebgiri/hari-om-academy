@@ -19,14 +19,20 @@ export default function faculties() {
         <User name="Aarti Kumari" designation="M.Sc." pic="ak.jpg" />
         <User name="Anupama Kumari" designation="M.Sc." pic="anupama.jpg" />
         <User name="Krishna Singh" designation="B.Tech" pic="krishna_singh.jpg"/>
-        <User name="Sashi Bhusan Sharma" designation="M.Com" />
+        <User name="Sashi Bhusan Sharma" designation="M.Com" pic="s_bhusan.jpg" />
         <User name="Sonal Kumari" designation="M.Com" pic="sonal_kumari.jpg" />
         <User name="Rani Kumari" designation="M.Com" pic="rani_kumari.jpg" />
         <User name="Roshan Kumar" designation="BCA" pic="rk.jpg" />
         <User name="Shalu Kumari" designation="BCA" pic="shalu.jpg"/>
+        <User name="Shailendra Kumar" designation="M.Sc. & B.Ed." pic="shailendra.jpg"/>
+        <User name="Dinesh Sharma" designation="MBBS" />
+        <User name="Manish Kumar Singh" designation="MBA" pic="manish.jpg"/>
+        <User name="Mohit Nishant" designation="Assistant Teacher" pic="nishant.jpg" />
         <User name="Sunil Kumar" designation="Assistant Teacher" pic="sunil_kumar.jpg"/>
         <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari.jpg"/>
         <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari_diff.jpg"/>
+        <User name="Shri Tiu" designation="Assistant Teacher" pic="shri.jpg"/>
+        <User name="Rahul Mahato" designation="Computer Trainer"/>
       </div>
       <Footer />
       <style jsx>

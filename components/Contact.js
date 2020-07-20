@@ -26,7 +26,7 @@ export default function Contact() {
         Jharkhand 831004
       </div>
       <div className="box">
-        <h2>Bamangora Campus</h2>
+        <h2>Rahargora Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
         <a className='wa' href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
         Rahargora,<br /> 
