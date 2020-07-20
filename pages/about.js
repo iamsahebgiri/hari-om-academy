@@ -11,7 +11,8 @@ export default function about() {
       <div className="container">
         <div className="box">
           <p>
-            Every student has a dream which inspires him/her to work hard in depth knowledge, quality guidance and good source of study. These are required to achieve his dream in this era of competitive environment.</p>
+            Every student has a dream which inspires her to work hard in depth knowledge, quality guidance and good source of study. These are required to achieve his dream in this era of competitive environment.
+          </p>
           <p>We, Hari Om Academy, family have passion to serve student community by way of providing good source of study, quality guidance, Senior Support, best environment to the student community for achieving their dream.</p>
           <p>
             We give students a chance to open up by their knowledge and other activities. Hari Om Academy gives you a thought that you can fulfill your dreams.</p>

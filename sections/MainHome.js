@@ -7,7 +7,7 @@ export default function MainHome() {
       <div className='main-home-container'>
         <div className='left-section'>
           <h1>First Digital Institute <br /> of Jamshedpur</h1>
-          <p className='tagline'>Where your dream comes true.</p>
+          <p className='tagline'>Where your dreams come true.</p>
           <img className='underline' src='/underline.svg' alt='underline' />
           <button>Get Started</button>
           <div className='popular-courses-container'>
