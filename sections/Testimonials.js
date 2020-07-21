@@ -23,7 +23,7 @@ export default function Testimonials() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <ReviewItem text='I have been reading here in Hari Om Acadey for last few months. The vibe and culture here is incredible. Teachers are really supportive and clears our doubt anytime. <br />
+          <ReviewItem text='I have been reading here in Hari Om Academy for last few months. The vibe and culture here is incredible. Teachers are really supportive and clears our doubt anytime. <br />
           If you want some institute who cares for you, Hari Om Academy is the way to go.' name='Madhu Kumari' course='Class 12' path='1.jpg' />
         </SwiperSlide>
         <SwiperSlide>
