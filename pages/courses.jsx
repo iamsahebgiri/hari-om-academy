@@ -10,7 +10,7 @@ export default function courses() {
   return (
     <>
       <Head>
-        <title>Our faculties | Hari Om Academy</title>
+        <title>Courses At A Glance | Hari Om Academy</title>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" />
       </Head>
       <Header />

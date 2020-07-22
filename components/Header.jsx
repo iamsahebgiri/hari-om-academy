@@ -76,6 +76,14 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link href="/testseries">
+                  <a className={router.pathname === '/testseries' ? 'active' : ''} href="/testseries">
+                    <span className="iconify" data-icon="ri:bar-chart-box-fill" data-inline="false" width="24px" />
+                    Test Series
+                  </a>
+                </Link>
+              </li>
+              <li>
                 <Link href="/faculties">
                   <a className={router.pathname === '/faculties' ? 'active' : ''} href="/faculties">
                     <span className="iconify" data-icon="ri:team-fill" data-inline="false" width="24px" />
@@ -116,6 +124,11 @@ export default function Header() {
             <li>
               <Link href="/gallery">
                 <a href="/gallery">Gallery</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/testseries">
+                <a href="/testseries">Test Series</a>
               </Link>
             </li>
             <li>

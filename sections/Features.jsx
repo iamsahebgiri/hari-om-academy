@@ -44,10 +44,10 @@ export default function Features() {
         }
         @media only screen and (max-width: 992px) {
           .title {
-            font-size: 24px;
-            text-align: center;
-            padding: 20px 0;
-            //display: none;
+            //font-size: 28px;
+            //text-align: center;
+            //padding: 20px 0;
+            display: none;
           }
           .feature-group-container {
             flex-direction: column;

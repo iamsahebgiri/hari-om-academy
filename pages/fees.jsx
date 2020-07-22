@@ -8,7 +8,7 @@ export default function fees() {
   return (
     <div>
       <Head>
-        <title>Our faculties | Hari Om Academy</title>
+        <title>Fees Structure| Hari Om Academy</title>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" />
       </Head>
       <Header />
