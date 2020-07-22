@@ -9,6 +9,7 @@ export default function fees() {
     <div>
       <Head>
         <title>Fees Structure| Hari Om Academy</title>
+        <link rel="icon" href="/logo.png" sizes="16x16 32x32" type="image/png" />
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" />
       </Head>
       <Header />
