@@ -30,11 +30,11 @@ export default function faculties() {
         <User name="Roshan Kumar" designation="BCA" pic="rk.jpg" />
         <User name="Shalu Kumari" designation="BCA" pic="shalu.jpg" />
 
+        <User name="Shri Tiu" designation="Assistant Teacher" pic="shri.jpg" />
         <User name="Mohit Nishant" designation="Assistant Teacher" pic="nishant.jpg" />
         <User name="Sunil Kumar" designation="Assistant Teacher" pic="sunil_kumar.jpg" />
         <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari.jpg" />
         <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari_diff.jpg" />
-        <User name="Shri Tiu" designation="Assistant Teacher" pic="shri.jpg" />
 
         <User name="Rahul Mahato" designation="Computer Trainer" pic="rahul.jpg" />
       </div>

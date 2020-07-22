@@ -18,3 +18,36 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: #f7fafc;
 }
+
+.white-box {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 20px;
+  background: #fff;
+}
+.title {
+  font-size: 36px;
+  font-family: 'Proxima Nova Bold';
+  color: #172B4D;
+}
+.pill {
+  padding: 6px 18px;
+  background: #FFEBE5;
+  color: #BF2600;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .white-box {
+    border: 1px solid #eff2f7;
+    box-shadow: none;
+    border-radius: 6px;
+  }
+  .title {
+    font-size: 28px;
+    padding: 0 30px;
+  }
+}
