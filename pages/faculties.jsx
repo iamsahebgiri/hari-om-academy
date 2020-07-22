@@ -15,15 +15,15 @@ export default function faculties() {
       <Header />
       <Jumbotron title="Our Ignited Minds" description="Best and Young faculties." />
       <div className="container">
-        <User name="Chandan Kumar" designation="CEO & Founder" pic="ck.jpg" />
+        <User name="Chandan Kumar" designation="CEO & Founder" description="chandankumar@hariomacademy.com" pic="ck.jpg" />
         <User name="Shailendra Kumar" designation="M.Sc. & B.Ed." pic="shailendra.jpg" />
         <User name="Dinesh Sharma" designation="MBBS" />
         <User name="Manish Kumar Singh" designation="MBA" pic="manish.jpg" />
 
-        <User name="Aarti Kumari" designation="M.Sc." pic="ak.jpg" />
-        <User name="Anupama Kumari" designation="M.Sc." pic="anupama.jpg" />
+        <User name="Aarti Kumari" designation="M.Sc." pic="ak.jpg" description="aartikumari@hariomacademy.com" />
+        <User name="Anupama Kumari" designation="M.Sc." pic="anupama.jpg" description="anupamakumari@hariomacademy.com" />
+        <User name="Krishna Singh" designation="B.Tech" pic="krishna_singh.jpg" description="krishnasingh@hariomacademy.com" />
         <User name="Om Sharma" designation="M.Sc." />
-        <User name="Krishna Singh" designation="B.Tech" pic="krishna_singh.jpg" />
         <User name="Sashi Bhusan Sharma" designation="M.Com" pic="s_bhusan.jpg" />
         <User name="Sonal Kumari" designation="M.Com" pic="sonal_kumari.jpg" />
         <User name="Rani Kumari" designation="M.Com" pic="rani_kumari.jpg" />
@@ -35,6 +35,9 @@ export default function faculties() {
         <User name="Sunil Kumar" designation="Assistant Teacher" pic="sunil_kumar.jpg" />
         <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari.jpg" />
         <User name="Nidhi Kumari" designation="Assistant Teacher" pic="nidhi_kumari_diff.jpg" />
+        <User name="Shilpy kumari" designation="Assistant Teacher" pic="shilpy.jpg" />
+        <User name="Archana kumari" designation="Assistant Teacher" pic="archana.jpg" />
+        <User name="Soni kumari" designation="Assistant Teacher" pic="soni.jpg" />
 
         <User name="Rahul Mahato" designation="Computer Trainer" pic="rahul.jpg" />
       </div>

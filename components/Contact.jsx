@@ -58,19 +58,19 @@ export default function Contact() {
         <br />
         Jamshedpur,
         <br />
-        Jharkhand 831016
+        Jharkhand 831002
       </div>
       <div className="box">
-        <h2>Purshudih Campus</h2>
+        <h2>Parshudih Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
         <a className="wa" href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
-        Purshudih,
+        Parshudih,
         <br />
         Near Chandni Chowk,
         <br />
         Jamshedpur,
         <br />
-        Jharkhand 831016
+        Jharkhand 831002
       </div>
       <style jsx>
         {`

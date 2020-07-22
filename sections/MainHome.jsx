@@ -9,28 +9,27 @@ export default function MainHome() {
           <h1>
             First Digital Institute
             <br />
-            {' '}
             of Jamshedpur
           </h1>
           <p className="tagline">Where your dreams come true.</p>
           <img className="underline" src="/underline.svg" alt="underline" />
-          <button type="button" className="get-started">Get Started</button>
+          <a href="https://forms.gle/ehbndM8xZ1KMSUER6" target="_blank" rel="noopener noreferrer" className="get-started">Get Started</a>
           <div className="popular-courses-container">
             <p className="popular-courses">Popular courses:</p>
             <ul className="popular-courses-ul">
-              <li className="none">
+              <li>
                 <Link href="/courses">
-                  <a href="/courses">UPSC CSE</a>
+                  <a href="/courses">UPSC</a>
                 </Link>
               </li>
-              <li>
+              <li className="none">
                 <Link href="/courses">
                   <a href="/courses">Banks</a>
                 </Link>
               </li>
-              <li className="none">
+              <li>
                 <Link href="/courses">
-                  <a href="/courses">IIT JEE</a>
+                  <a href="/courses">JEE</a>
                 </Link>
               </li>
               <li>
@@ -110,6 +109,7 @@ export default function MainHome() {
           text-transform: uppercase;
           font-family: 'Proxima Nova Semibold';
           margin-top: 80px;
+          text-decoration: none;
         }
         .get-started:hover{
           cursor: pointer;

@@ -23,21 +23,6 @@ export default function fees() {
             </tr>
 
             <tr>
-              <td>Class 1 to 4</td>
-              <td>All</td>
-              <td>Rs. 250</td>
-            </tr>
-            <tr>
-              <td>Class 5 and 6</td>
-              <td>All</td>
-              <td>Rs. 300</td>
-            </tr>
-            <tr>
-              <td>Class 7 and 8</td>
-              <td>All</td>
-              <td>Rs. 500</td>
-            </tr>
-            <tr>
               <td>Class 9 and 10 (JAC)</td>
               <td>All</td>
               <td>Rs. 500 + 50</td>
@@ -79,7 +64,7 @@ export default function fees() {
             </tr>
             <tr>
               <td>Computer Course</td>
-              <td>Computer Only</td>
+              <td>Basic</td>
               <td>Rs. 2000 (One Time/Yr)</td>
             </tr>
             <tr>
@@ -88,7 +73,7 @@ export default function fees() {
               <td>Rs. 2000 (One Time/Yr)</td>
             </tr>
             <tr>
-              <td>Competition</td>
+              <td>Railway/Defence/SSC</td>
               <td>All</td>
               <td>Rs. 750</td>
             </tr>
@@ -121,6 +106,11 @@ export default function fees() {
               <td>NEET</td>
               <td>PCB</td>
               <td>Rs. 40000 (One Time/Yr)</td>
+            </tr>
+            <tr>
+              <td>Banking</td>
+              <td>All</td>
+              <td>Rs. 12000 (Full Course)</td>
             </tr>
             <tr>
               <td>S.S.C.</td>
@@ -171,6 +161,21 @@ export default function fees() {
               <td>B.A.</td>
               <td>All</td>
               <td>Rs. 1500 / Per Semester</td>
+            </tr>
+            <tr>
+              <td>Class 1 to 4</td>
+              <td>All</td>
+              <td>Rs. 250</td>
+            </tr>
+            <tr>
+              <td>Class 5 and 6</td>
+              <td>All</td>
+              <td>Rs. 300</td>
+            </tr>
+            <tr>
+              <td>Class 7 and 8</td>
+              <td>All</td>
+              <td>Rs. 500</td>
             </tr>
           </tbody>
         </table>

@@ -15,7 +15,7 @@ export default function User(props) {
       </div>
       <h5 className="font-weight-bold mt-4 mb-3">{name}</h5>
       <p className="designation">{designation}</p>
-      <p className="description">{description}</p>
+      <a href={`mailto:${description}?subject=Hello`} className="description">{description}</a>
       <style jsx>
         {`
         .container {

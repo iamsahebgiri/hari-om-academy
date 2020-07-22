@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import React from 'react';
 import Head from 'next/head';
 import Header from '../components/Header';
@@ -36,29 +37,51 @@ export default function about() {
 
           <p>
             Hari Om academy is providing a comprehensive educational
-            facility by young teacher to foster an enthusiastic,
+            facility by expert teachers to foster an enthusiastic,
             creative community of learners to continue their intellectual,
             emotional and physical development. We forge strong positive
             connection with students for their development of skill and
-            for academic knowledge and for that we recruit our well qualified
-            experienced students as our faculty in our academy. We create
+            for academic knowledge. We create
             competition to develop a curiosity of learning and we provide
             scholarship to bright student in our all 5 branches and we also
             guide student for mental development for their bright future.
           </p>
         </div>
         <div className="box">
+          <h1>Our Vision</h1>
+          <p>
+            ​It is our initiative to bring the online and the offline classes
+            on a single stage by Digitization of classes with  highly qualified
+            and experienced faculties.
+          </p>
+
+          <p>
+            &quot;TIME IS PRICELESS&quot; but it is wasted by students in travelling in search
+            of education. So, we provide quality education at your home to save your
+            time money as well as energy.
+          </p>
+          <p>
+            We have kept education of economically weaker students in our priority by organizing
+            free classes for weekends and giving scholarships to deserving students.
+          </p>
+
+          <p>
+            We have tradition of producing TOPPERS. So, come and be the TOPPER.
+          </p>
+
+        </div>
+        <div className="box">
           <h1>Our Mission</h1>
           <p>
             Hari Om Academy is dedicated to deliver effective,
-            innovative and excellence study to the student that will
-            make him/her rational with an inquisitive and argumentative
+            innovative and excellent study to the student that will
+            make him rational with an inquisitive and argumentative
             bent of mind through differentiated approach of learning.
             Hari Om Academy emphasize to give new incarnation in the field of education
             by a determination mind to ignite the whole world. Apart from this
             personality development, leadership skill, character building
             are the main aspect of overall development, regarding in this
-            way it’s our mission to refine the way of learning and we are still this way.
+            way it’s our mission to refine the way of learning and we are still on the way.
           </p>
         </div>
 
