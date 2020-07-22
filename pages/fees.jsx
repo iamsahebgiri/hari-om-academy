@@ -23,9 +23,24 @@ export default function fees() {
             </tr>
 
             <tr>
-              <td>Class 9 and 10 (JAC)</td>
+              <td>Class 1 to 4</td>
+              <td>All</td>
+              <td>Rs. 250</td>
+            </tr>
+            <tr>
+              <td>Class 5 and 6</td>
+              <td>All</td>
+              <td>Rs. 300</td>
+            </tr>
+            <tr>
+              <td>Class 7 and 8</td>
               <td>All</td>
               <td>Rs. 500</td>
+            </tr>
+            <tr>
+              <td>Class 9 and 10 (JAC)</td>
+              <td>All</td>
+              <td>Rs. 500 + 50</td>
             </tr>
             <tr>
               <td>Class 9 and 10 (CBSE)</td>
@@ -65,6 +80,11 @@ export default function fees() {
             <tr>
               <td>Computer Course</td>
               <td>Computer Only</td>
+              <td>Rs. 2000 (One Time/Yr)</td>
+            </tr>
+            <tr>
+              <td>Computer Course</td>
+              <td>C++</td>
               <td>Rs. 2000 (One Time/Yr)</td>
             </tr>
             <tr>
@@ -116,6 +136,41 @@ export default function fees() {
               <td>N.D.A.</td>
               <td>All</td>
               <td>Rs. 8000 (Full Course)</td>
+            </tr>
+            <tr>
+              <td>I.A.S.</td>
+              <td>All</td>
+              <td>Rs. 1000</td>
+            </tr>
+            <tr>
+              <td>Polytechnic</td>
+              <td>All</td>
+              <td>Rs. 2000</td>
+            </tr>
+            <tr>
+              <td>B.Sc.</td>
+              <td>Mathematics</td>
+              <td>Rs. 3000 / Per Semester</td>
+            </tr>
+            <tr>
+              <td>B.Sc.</td>
+              <td>Physics</td>
+              <td>Rs. 3000 / Per Semester</td>
+            </tr>
+            <tr>
+              <td>B.Sc.</td>
+              <td>Chemistry</td>
+              <td>Rs. 3000 / Per Semester</td>
+            </tr>
+            <tr>
+              <td>B.Com.</td>
+              <td>All</td>
+              <td>Rs. 2000 / Per Semester</td>
+            </tr>
+            <tr>
+              <td>B.A.</td>
+              <td>All</td>
+              <td>Rs. 1500 / Per Semester</td>
             </tr>
           </tbody>
         </table>
