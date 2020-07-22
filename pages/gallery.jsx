@@ -23,6 +23,8 @@ export default function gallery() {
 
         <img src="/gallery/4.jpg" alt="Hari om Academy" />
 
+        <img src="/gallery/5.jpg" alt="Hari om Academy" />
+
         <img src="/gallery/6.jpg" alt="Hari om Academy" />
 
         <img src="/gallery/7.jpg" alt="Hari om Academy" />

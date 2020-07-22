@@ -65,10 +65,6 @@ export default function about() {
             free classes for weekends and giving scholarships to deserving students.
           </p>
 
-          <p>
-            We have tradition of producing TOPPERS. So, come and be the TOPPER.
-          </p>
-
         </div>
         <div className="box">
           <h1>Our Mission</h1>
