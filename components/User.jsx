@@ -1,13 +1,17 @@
-import React from 'react'
-
+import React from 'react';
 
 export default function User(props) {
-  const { name, designation, pic, description } = props;
+  const {
+    name, designation, pic, description,
+  } = props;
   return (
-    <div className='container'>
+    <div className="container">
       <div className="avatar mx-auto">
-        <img src={'pic' in props ? `faculties/${pic}` : 'faculties/default.png'} className="rounded-circle"
-          alt={name} />
+        <img
+          src={'pic' in props ? `faculties/${pic}` : 'faculties/default.png'}
+          className="rounded-circle"
+          alt={name}
+        />
       </div>
       <h5 className="font-weight-bold mt-4 mb-3">{name}</h5>
       <p className="designation">{designation}</p>
@@ -55,5 +59,5 @@ export default function User(props) {
         `}
       </style>
     </div>
-  )
+  );
 }

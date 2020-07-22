@@ -1,56 +1,75 @@
-import React from 'react'
+import React from 'react';
 
 export default function Contact() {
   return (
-    <div className='container'>
+    <div className="container">
 
       <div className="box">
         <h2>Chhota Govindpur Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
-        <a className='wa' href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
-        Chhota Govindpur,<br /> 
-        Near Shri Ram Mandir,<br /> 
-        Govindpur Bus Stand,<br /> 
-        Jamshedpur,<br /> 
+        <a className="wa" href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+        Chhota Govindpur,
+        <br />
+        Near Shri Ram Mandir,
+        <br />
+        Govindpur Bus Stand,
+        <br />
+        Jamshedpur,
+        <br />
         Jharkhand 831015
-        
+
       </div>
       <div className="box">
         <h2>Govindpur Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
-        <a className='wa' href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
-        Govindpur, <br />
-        Near RNS ITI,<br /> 
-        Vishram Nagar Asanboni Road,<br /> 
-        Jamshedpur,<br /> 
+        <a className="wa" href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+        Govindpur,
+        {' '}
+        <br />
+        Near RNS ITI,
+        <br />
+        Vishram Nagar Asanboni Road,
+        <br />
+        Jamshedpur,
+        <br />
         Jharkhand 831004
       </div>
       <div className="box">
         <h2>Rahargora Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
-        <a className='wa' href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
-        Rahargora,<br /> 
-        Near A.B.M.P.A. High School,<br /> 
-        Jamshedpur,<br /> 
+        <a className="wa" href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+        Rahargora,
+        <br />
+        Near A.B.M.P.A. High School,
+        <br />
+        Jamshedpur,
+        <br />
         Jharkhand 831016
       </div>
       <div className="box">
         <h2>Sarjamda Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
-        <a className='wa' href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
-        Sarjamda,<br /> 
-        Nidhir Tola,<br /> 
-        Near Maharana Pratap Chowk,<br /> 
-        Jamshedpur,<br /> 
+        <a className="wa" href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+        Sarjamda,
+        <br />
+        Nidhir Tola,
+        <br />
+        Near Maharana Pratap Chowk,
+        <br />
+        Jamshedpur,
+        <br />
         Jharkhand 831016
       </div>
       <div className="box">
         <h2>Purshudih Campus</h2>
         <a className="tel" href="tel:+918210026457">+91 8210026457</a>
-        <a className='wa' href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
-        Purshudih,<br /> 
-        Near Chandni Chowk,<br /> 
-        Jamshedpur,<br /> 
+        <a className="wa" href="https://api.whatsapp.com/send?phone=+918210026457&text=Hi" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+        Purshudih,
+        <br />
+        Near Chandni Chowk,
+        <br />
+        Jamshedpur,
+        <br />
         Jharkhand 831016
       </div>
       <style jsx>
@@ -102,5 +121,5 @@ export default function Contact() {
         `}
       </style>
     </div>
-  )
+  );
 }

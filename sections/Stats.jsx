@@ -1,27 +1,27 @@
-import React from 'react'
+import React from 'react';
 
 export default function Stats() {
   return (
-    <div className='stats-container'>
+    <div className="stats-container">
       <h1 className="title">Our collective efforts over years</h1>
-      <div className='stats-content'>
-        <div className='stats-item'>
+      <div className="stats-content">
+        <div className="stats-item">
           <h1>5</h1>
           <p>Branches</p>
         </div>
-        <div className='stats-item'>
+        <div className="stats-item">
           <h1>4000+</h1>
           <p>Happy Students</p>
         </div>
-        <div className='stats-item'>
+        <div className="stats-item">
           <h1>23</h1>
           <p>Faculties</p>
         </div>
-        <div className='stats-item'>
+        <div className="stats-item">
           <h1>30+</h1>
           <p>Courses</p>
         </div>
-        <div className='stats-item'>
+        <div className="stats-item">
           <h1>7256+</h1>
           <p>Trusted Parents</p>
         </div>
@@ -69,5 +69,5 @@ export default function Stats() {
         `}
       </style>
     </div>
-  )
+  );
 }

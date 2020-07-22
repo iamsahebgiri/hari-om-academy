@@ -1,17 +1,23 @@
-import React from 'react'
+import React from 'react';
 
-export default function ReviewItem({ text, name, course, path }) {
+export default function ReviewItem({
+  text, name, course, path,
+}) {
   return (
     <div className="container">
-      <div className='review-item-container'>
+      <div className="review-item-container">
         <div>
-          <p className='text' dangerouslySetInnerHTML={{
-            __html: text
-          }}></p>
+          <p
+            className="text"
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: text,
+            }}
+          />
         </div>
-        <div className='user-info-container'>
+        <div className="user-info-container">
           <div className="circle">
-            <img src={`/profile/${path}`} alt={name}/>
+            <img src={`/profile/${path}`} alt={name} />
           </div>
           <div>
             <p>{name}</p>
@@ -20,7 +26,8 @@ export default function ReviewItem({ text, name, course, path }) {
         </div>
 
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
         .container {
           padding: 20px 0;
         }
@@ -56,8 +63,9 @@ export default function ReviewItem({ text, name, course, path }) {
             border: 1px solid #eff2f7;
           }
         }
-      `}</style>
+      `}
+      </style>
     </div>
 
-  )
+  );
 }

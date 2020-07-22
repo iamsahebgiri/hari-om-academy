@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function CourseItem({ img, title , colorTop, colorBottom}) {
+export default function CourseItem({
+  img, title, colorTop, colorBottom,
+}) {
   return (
-    <div className='course-item'>
-      <img  src={`/course/${img}`} alt={title}/>
-      <h2 className='title'>{title}</h2>
+    <div className="course-item">
+      <img src={`/course/${img}`} alt={title} />
+      <h2 className="title">{title}</h2>
 
       <style jsx>
         {`
@@ -36,5 +38,5 @@ export default function CourseItem({ img, title , colorTop, colorBottom}) {
         `}
       </style>
     </div>
-  )
+  );
 }

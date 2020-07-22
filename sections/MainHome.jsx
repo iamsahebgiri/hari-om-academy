@@ -1,46 +1,52 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
 
 export default function MainHome() {
   return (
-    <div className='container'>
-      <div className='main-home-container'>
-        <div className='left-section'>
-          <h1>First Digital Institute <br /> of Jamshedpur</h1>
-          <p className='tagline'>Where your dreams come true.</p>
-          <img className='underline' src='/underline.svg' alt='underline' />
-          <button>Get Started</button>
-          <div className='popular-courses-container'>
-            <p className='popular-courses'>Popular courses:</p>
-            <ul className='popular-courses-ul'>
-              <li>
-                <Link href='/courses'>
-                  <a>UPSC CSE</a>
+    <div className="container">
+      <div className="main-home-container">
+        <div className="left-section">
+          <h1>
+            First Digital Institute
+            <br />
+            {' '}
+            of Jamshedpur
+          </h1>
+          <p className="tagline">Where your dreams come true.</p>
+          <img className="underline" src="/underline.svg" alt="underline" />
+          <button type="button" className="get-started">Get Started</button>
+          <div className="popular-courses-container">
+            <p className="popular-courses">Popular courses:</p>
+            <ul className="popular-courses-ul">
+              <li className="none">
+                <Link href="/courses">
+                  <a href="/courses">UPSC CSE</a>
                 </Link>
               </li>
               <li>
-                <Link href='/courses'>
-                  <a>Banks</a>
+                <Link href="/courses">
+                  <a href="/courses">Banks</a>
+                </Link>
+              </li>
+              <li className="none">
+                <Link href="/courses">
+                  <a href="/courses">IIT JEE</a>
                 </Link>
               </li>
               <li>
-                <Link href='/courses'>
-                  <a>IIT JEE</a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/courses'>
-                  <a>NEET</a>
+                <Link href="/courses">
+                  <a href="/courses">NEET</a>
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-        <div className='right-section'>
-          <img width='450' src='/girl.png' alt='girl' />
+        <div className="right-section">
+          <img width="450" src="/girl.png" alt="girl" />
         </div>
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
         .container {
           width: 100%;
           background-color: var(--brand-color);
@@ -88,24 +94,24 @@ export default function MainHome() {
         .popular-courses-ul li a:hover {
           opacity: 1;
         }
-        button{
-         display: inline-block;
-         padding: 10px 20px;
-         margin:0 0.1em 0.1em 0;
-         border: none;
-         border-radius:6px;
-         box-sizing: border-box;
-         color:#FFF;
+        .get-started{
+          display: inline-block;
+          padding: 10px 20px;
+          margin:0 0.1em 0.1em 0;
+          border: none;
+          border-radius:6px;
+          box-sizing: border-box;
+          color:#FFF;
           font-size: 16px;
-         text-align:center;
-         transition: all 0.2s;
+          text-align:center;
+          transition: all 0.2s;
           outline: none;
           background: #3ECF8E;
           text-transform: uppercase;
           font-family: 'Proxima Nova Semibold';
           margin-top: 80px;
         }
-        button:hover{
+        .get-started:hover{
           cursor: pointer;
           transform: scale(1.05);
         }
@@ -119,30 +125,32 @@ export default function MainHome() {
             justify-content: center;
           }
           .right-section img {
-            max-width: 360px;
-            margin-top: 20px;
+            display:none;
           }
           h1 {
             font-size: 34px;
             line-height: 40px;
-            text-align: center;
+            text-align: left;
           }
           .tagline {
-            font-size: 14px;
-            text-align: center;
+            font-size: 15px;
           }
-          button {
-            display: none;
-            margin: 20px auto;
+          .get-started {
+            width: 100%;
+            margin-top: 60px;
           }
           .underline {
             display: none;
           }
-          .popular-courses-container {
+          .popular-courses. .popular-courses-ul li a {
+            font-size: 14px;
+          }
+          .popular-courses-ul .none {
             display: none;
           }
         }
-      `}</style>
+      `}
+      </style>
     </div>
-  )
+  );
 }

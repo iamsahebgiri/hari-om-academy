@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 export default function Jumbotron({ title, description }) {
   return (
-    <div className='jumbotron'>
-      <div className='container'>
-        <h1 className='title'>{title}</h1>
-        <p className='description' dangerouslySetInnerHTML={{
-          __html: description
-        }}></p>
+    <div className="jumbotron">
+      <div className="container">
+        <h1 className="title">{title}</h1>
+        <p
+          className="description"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: description,
+          }}
+        />
       </div>
       <style jsx>
         {`
@@ -44,10 +48,11 @@ export default function Jumbotron({ title, description }) {
             }
             .title {
               font-size: 28px;
+              padding: 0 30px;
             }
           }
         `}
       </style>
     </div>
-  )
+  );
 }

@@ -1,25 +1,37 @@
-import React from 'react'
+import React from 'react';
 
 export default function MessageFromFounder() {
   return (
     <div className="outer-container">
-      <div className='container'>
-        <div className='section-container'>
-          <div className='left'>
-            <h1 className='title'>Message from founder</h1>
-            <p>Our Institute emphasize to give new embodiment in the field of education by perseverance, strong mindedness to spark the whole world. Our mission to refine the way of learning offers child centric-education that goes beyond the text books to open the window of the mind so that each child develops holistically.</p>
+      <div className="container">
+        <div className="section-container">
+          <div className="left">
+            <h1 className="title">Message from founder</h1>
+            <p>
+              Our Institute emphasize to give new embodiment in the field of education by
+              perseverance, strong mindedness to spark the whole world. Our mission to refine the
+              way of learning offers child centric-education that goes beyond the text books to open
+              the window of the mind so that each child develops holistically.
+            </p>
 
-            <p>We provide a wide ranging facilities by professionals to dynamic, creative learners to continue their cognitive and physical development.</p>
-            <p>Also we furnish a better guidance for self-improvement of student for building up their future.</p>
+            <p>
+              We provide a wide ranging facilities by professionals to dynamic,
+              creative learners to continue their cognitive and physical development.
+            </p>
+            <p>
+              Also we furnish a better guidance for self-improvement of student for
+              building up their future.
+            </p>
 
-            <p className='founder'>Chandan Kumar</p>
+            <p className="founder">Chandan Kumar</p>
           </div>
-          <div className='right'>
-            <img className='image' src='/founder.png' alt='Founder' />
+          <div className="right">
+            <img className="image" src="/founder.png" alt="Founder" />
           </div>
         </div>
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
       .title {
         font-size: 36px;
         font-family: 'Proxima Nova Bold';
@@ -33,7 +45,7 @@ export default function MessageFromFounder() {
         padding-left: 30px;
         background: #fff;
         max-width: 1200px;
-        margin: 75px auto 30px;
+        margin: 30px auto 30px;
       }
       .section-container {
         display: flex;
@@ -86,7 +98,8 @@ export default function MessageFromFounder() {
           padding: 20px;
         }
       }
-      `}</style>
+      `}
+      </style>
     </div>
-  )
+  );
 }

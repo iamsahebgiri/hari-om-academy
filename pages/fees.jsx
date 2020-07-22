@@ -1,13 +1,18 @@
-import React from 'react'
-import Header from '../components/Header'
-import Jumbotron from '../components/Jumbotron'
-import Footer from '../components/Footer'
+import React from 'react';
+import Head from 'next/head';
+import Header from '../components/Header';
+import Jumbotron from '../components/Jumbotron';
+import Footer from '../components/Footer';
 
 export default function fees() {
   return (
     <div>
+      <Head>
+        <title>Our faculties | Hari Om Academy</title>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" />
+      </Head>
       <Header />
-      <Jumbotron title='Fees Structure' description='We are transparent when it comes to money.' />
+      <Jumbotron title="Fees Structure" description="We are transparent when it comes to money." />
       <div className="container">
         <table>
           <tbody>
@@ -16,7 +21,7 @@ export default function fees() {
               <th>Subjects</th>
               <th>Prices/Month</th>
             </tr>
-            
+
             <tr>
               <td>Class 9 and 10 (JAC)</td>
               <td>All</td>
@@ -164,5 +169,5 @@ export default function fees() {
         `}
       </style>
     </div>
-  )
+  );
 }

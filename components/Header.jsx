@@ -1,133 +1,151 @@
-import React from 'react'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Header() {
-
   const router = useRouter();
   const modal = React.createRef();
-  function toggleModal(e) {
+  function toggleModal() {
     if (modal.current.style.display === 'block') {
       modal.current.style.display = 'none';
-    }
-    else {
+    } else {
       modal.current.style.display = 'block';
     }
-
   }
   return (
     <div className="container">
-      <div className='header'>
-        <div className='mob-navbar'>
-          <div onClick={toggleModal.bind(this)}>
-            <span className='iconify' data-icon='ion-menu' width='24px'></span>
+      <div className="header">
+        <div className="mob-navbar">
+          <Link href="/">
+            <a className="mob-link" href="/">
+              <h1 className="mob-title">Hari Om Academy</h1>
+            </a>
+          </Link>
+          <div
+            className="mob-menu"
+            onClick={toggleModal.bind(this)}
+            onKeyPress={toggleModal.bind(this)}
+            role="button"
+            tabIndex="0"
+          >
+            <span className="iconify" style={{ color: 'white' }} data-icon="ion-menu" width="24px" />
           </div>
-          <h1 className='mob-title'>Hari Om Academy</h1>
-          <div></div>
         </div>
-        <div id='mob-nav-modal' className='mob-nav' ref={modal}>
-          <div className='modal-content'>
-            <div className='modal-topbar' onClick={toggleModal.bind(this)}>
-              <span className='iconify' data-icon='ion-close' width='18px'></span>
-              <h1>Close</h1>
+        <div id="mob-nav-modal" className="mob-nav" ref={modal}>
+          <div className="modal-content">
+            <div
+              className="modal-topbar"
+              onClick={toggleModal.bind(this)}
+              onKeyPress={toggleModal.bind(this)}
+              role="button"
+              tabIndex="0"
+            >
+              <span className="iconify" data-icon="ri:close-fill" data-inline="false" width="24px" />
             </div>
             <ul>
-              <li >
-                <Link href='/' >
-                  <a className={router.pathname == '/' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-planet' width='18px'></span>
+              <li>
+                <Link href="/">
+                  <a className={router.pathname === '/' ? 'active' : ''} href="/">
+                    <span className="iconify" data-icon="ri:home-fill" data-inline="false" width="24px" />
                     Home
-                </a>
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href='/courses'>
-                  <a className={router.pathname == '/courses' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-construct' width='18px'></span>
-                  Courses
-                </a>
+                <Link href="/courses">
+                  <a className={router.pathname === '/courses' ? 'active' : ''} href="/courses">
+                    <span className="iconify" data-icon="ri:layout-2-fill" data-inline="false" width="24px" />
+                    Courses
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href='/gallery'>
-                  <a className={router.pathname == '/gallery' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-images' width='18px'></span>
-                  Gallery</a>
+                <Link href="/gallery">
+                  <a className={router.pathname === '/gallery' ? 'active' : ''} href="/gallery">
+                    <span className="iconify" data-icon="ri:gallery-fill" data-inline="false" width="24px" />
+                    Gallery
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href='/fees'>
-                  <a className={router.pathname == '/fees' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-card' width='18px'></span>
-                  Fees</a>
+                <Link href="/fees">
+                  <a className={router.pathname === '/fees' ? 'active' : ''} href="/fees">
+                    <span className="iconify" data-icon="ri:money-dollar-circle-fill" data-inline="false" width="24px" />
+                    Fees
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href='/faculties'>
-                  <a className={router.pathname == '/faculties' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-people' width='18px'></span>
-                  Faculties</a>
+                <Link href="/faculties">
+                  <a className={router.pathname === '/faculties' ? 'active' : ''} href="/faculties">
+                    <span className="iconify" data-icon="ri:team-fill" data-inline="false" width="24px" />
+                    Faculties
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href='/about'>
-                  <a className={router.pathname == '/about' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-school' width='18px'></span>
-                About</a>
+                <Link href="/contact">
+                  <a className={router.pathname === '/contact' ? 'active' : ''} href="/contact">
+                    <span className="iconify" data-icon="ri:mail-fill" data-inline="false" width="24px" />
+                    Contact
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href='/contact'>
-                  <a className={router.pathname == '/contact' ? 'active' : ''}>
-                    <span className='iconify' data-icon='ion-call' width='18px'></span>
-                Contact</a>
+                <Link href="/about">
+                  <a className={router.pathname === '/about' ? 'active' : ''} href="/about">
+                    <span className="iconify" data-icon="ri:information-fill" data-inline="false" width="24px" />
+                    About
+                  </a>
                 </Link>
               </li>
+
             </ul>
           </div>
         </div>
-        <div className='left-nav-container'>
-          <Link href='/'>
-            <a className='logo'>Hari Om Academy</a>
+        <div className="left-nav-container">
+          <Link href="/">
+            <a className="logo" href="/">Hari Om Academy</a>
           </Link>
-          <ul className='left-nav'>
+          <ul className="left-nav">
             <li>
-              <Link href='/courses'>
-                <a>Courses</a>
+              <Link href="/courses">
+                <a href="/courses">Courses</a>
               </Link>
             </li>
             <li>
-              <Link href='/gallery'>
-                <a>Gallery</a>
+              <Link href="/gallery">
+                <a href="/gallery">Gallery</a>
               </Link>
             </li>
             <li>
-              <Link href='/fees'>
-                <a>Fee Structure</a>
+              <Link href="/fees">
+                <a href="/fees">Fee Structure</a>
               </Link>
             </li>
             <li>
-              <Link href='/faculties'>
-                <a>Faculties</a>
+              <Link href="/faculties">
+                <a href="/faculties">Faculties</a>
               </Link>
             </li>
           </ul>
         </div>
-        <ul className='right-nav'>
+        <ul className="right-nav">
           <li>
-            <Link href='/contact'>
-              <a>Contact</a>
+            <Link href="/contact">
+              <a href="/contact">Contact</a>
             </Link>
           </li>
           <li>
-            <Link href='/about'>
-              <a>About</a>
+            <Link href="/about">
+              <a href="/about">About</a>
             </Link>
           </li>
         </ul>
       </div>
 
-      <style jsx>{`
+      <style jsx>
+        {`
         .container {
           background: var(--brand-color);
         }
@@ -169,9 +187,7 @@ export default function Header() {
           text-transform: uppercase;
           font-family: 'Proxima Nova Bold';
           color: #fff;
-          // background: #fff;
-          // color: #8777D9;
-          // padding: 10px 16px;
+          
           border-radius: 6px;
           margin-right: 30px;
         }
@@ -180,25 +196,41 @@ export default function Header() {
           align-items: center;
         }
         @media only screen and (max-width: 992px) {
+
           .left-nav-container, .right-nav{
             display: none;
           }
           .header {
             padding: 0;
           }
+          .mob-menu {
+            padding: 6px 8px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+          }
           .mob-navbar {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: #FFF;
+            background: var(--brand-color);
             width: 100%;
             padding: 15px 10px;
           }
+          .mob-navbar .iconify {
+            color: #172B4D;
+          }
+          .mob-link {
+            text-decoration: none;
+          }
           .mob-title {
             font-family: 'Proxima Nova Bold';
-            color: #172B4D;
+            //color: #172B4D;
             text-transform: uppercase;
-            font-size: 21px;
+            font-size: 16px;
+            background: #fff;
+            color: var(--brand-color);
+            border-radius: 4px;
+            padding: 10px 16px;
           }
           .block {
             display: block;
@@ -253,6 +285,7 @@ export default function Header() {
           }
           .modal-topbar {
             display: flex;
+            justify-content: flex-end;
             align-items: center;
             padding: 8px;
           }
@@ -272,8 +305,9 @@ export default function Header() {
           }
         }
 
-      `}</style>
+      `}
+      </style>
     </div>
 
-  )
+  );
 }

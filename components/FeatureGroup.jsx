@@ -1,17 +1,20 @@
-import React from 'react'
-import FeaturedIcon from './FeaturedIcon'
+import React from 'react';
+import FeaturedIcon from './FeaturedIcon';
 
-export default function Feature({icon, color, title, description}) {
+export default function Feature({
+  icon, color, title, description,
+}) {
   return (
-    <div>
+    <div className="container">
       <FeaturedIcon color={color} icon={icon} />
       <h2>{title}</h2>
       <p>
-       {description}
+        {description}
       </p>
 
-      <style jsx>{`
-        div {
+      <style jsx>
+        {`
+        .container {
           width: 160px;
           display: flex;
           flex-direction: column;
@@ -31,11 +34,13 @@ export default function Feature({icon, color, title, description}) {
           text-align: center;
         }
         @media only screen and (max-width: 992px) { {
-          div {
-            padding: 10px 10px 30px 10px;
+          .container {
+            width: 250px;
+            padding: 10px 10px 20px 10px;
           }
         }
-      `}</style>
+      `}
+      </style>
     </div>
-  )
+  );
 }

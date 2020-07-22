@@ -1,17 +1,22 @@
-import React from 'react'
-import PlayStore from '../components/PlayStore'
-import AppStore from '../components/AppStore'
+import React from 'react';
+import PlayStore from '../components/PlayStore';
+// import AppStore from '../components/AppStore'
 
 export default function DownloadApps() {
   return (
-    <div className='download-apps'>
-      <div className='content-container'>
-        <div className='section'>
-          <h1 className='title'>Download our app now</h1>
-          <p className='description'>Study Material, latest notifications,<br /> reminder and many more.</p>
+    <div className="download-apps">
+      <div className="content-container">
+        <div className="section">
+          <h1 className="title">Download our app now</h1>
+          <p className="description">
+            Study Material, latest notifications,
+            <br />
+            {' '}
+            reminder and many more.
+          </p>
           <PlayStore />
         </div>
-        <img src='/phones.png' alt='download apps' />
+        <img src="/phones.png" alt="download apps" />
 
       </div>
       <style jsx>
@@ -64,5 +69,5 @@ export default function DownloadApps() {
         `}
       </style>
     </div>
-  )
+  );
 }
