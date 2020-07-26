@@ -18,13 +18,13 @@ export default function faculties() {
       <div className="container">
         <User name="Chandan Kumar" designation="CEO & Founder" description="chandankumar@hariomacademy.com" pic="ck.jpg" />
         <User name="Shailendra Kumar" designation="M.Sc. & B.Ed." pic="shailendra.jpg" />
-        <User name="Dinesh Sharma" designation="MBBS" />
+        {/* <User name="Dinesh Sharma" designation="MBBS" /> */}
         <User name="Manish Kumar Singh" designation="MBA" pic="manish.jpg" />
 
         <User name="Aarti Kumari" designation="M.Sc." pic="ak.jpg" description="aartikumari@hariomacademy.com" />
         <User name="Anupama Kumari" designation="M.Sc." pic="anupama.jpg" description="anupamakumari@hariomacademy.com" />
         <User name="Krishna Singh" designation="B.Tech" pic="krishna_singh.jpg" description="krishnasingh@hariomacademy.com" />
-        <User name="Om Sharma" designation="M.Sc." />
+        {/* <User name="Om Sharma" designation="M.Sc." /> */}
         <User name="Sashi Bhusan Sharma" designation="M.Com" pic="s_bhusan.jpg" />
         <User name="Sonal Kumari" designation="M.Com" pic="sonal_kumari.jpg" />
         <User name="Rani Kumari" designation="M.Com" pic="rani_kumari.jpg" />
